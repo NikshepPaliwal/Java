@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 
-public class arraylist {
+public class arrlist {
     
     public static void main(String[] args){
         ArrayList<Integer> arrayList = new ArrayList<>(5);
@@ -8,7 +8,7 @@ public class arraylist {
             arrayList.add(i*10);
         }
         for(Integer num: arrayList){
-            System.out.println(num);
+            System.out.println(num+2);
         }
 
     }
