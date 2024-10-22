@@ -7,11 +7,7 @@ public class arrlist {
         for(int i=0; i<10;i++){
             arrayList.add(i*10);
         }
-        for(Integer num: arrayList){
-            System.out.println(num+2);
-        }
+        System.out.println(arrayList);
 
     }
-
-    
 }
